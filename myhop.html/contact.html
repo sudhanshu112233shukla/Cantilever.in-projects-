@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shukla Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header class="section-navbar">
+        <div class="container">
+            <img src="public/logo.png" alt="Shukla Store Logo">
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" onclick="window.location.href='index.html#';">Home</a></li>
+                    <li><a class="shop" onclick="window.location.href='shop.html';">Shop</a></li>
+                    <li><a class="about" onclick="window.location.href='about.html#';">About</a></li>
+                    <li><a class="product" onclick="window.location.href='shop1.html';">Products</a></li>
+                    <li><a class="contact" onclick="window.location.href='contact.html';">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us using the form below.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Phone</h4>
+                    <p>+123 456 7890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>info@shuklastore.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Address</h4>
+                    <p>123 Shukla Street, City, Country</p>
+                </div>
+            </div>
+    
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
